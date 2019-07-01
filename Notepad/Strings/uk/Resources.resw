@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Author.Text" xml:space="preserve">
+    <value>Олег Самойлов</value>
+  </data>
+  <data name="AppBar_About.Label" xml:space="preserve">
+    <value>Про застосунок</value>
+  </data>
+  <data name="AppBar_Save.Label" xml:space="preserve">
+    <value>Зберегти</value>
+  </data>
+  <data name="appDescription" xml:space="preserve">
+    <value>Padnote – це красий і зручний застосунок-блокнот з унікальною функціональністю, створений спеціально для Windows 10 та призначений для створення і редагування простих текстових документів. Ви можете використовувати даний застосунок в якості повноцінної заміни вбудованому в Windows класичному блокноту, призначивши Padnote як програму за замовчуванням для відкриття текстових файлів. Крім того, Padnote має сучасний, акуратний, мінімалістичний, приємний користувачам інтерфейс будучи універсальним застосунком, що може працювати на будь-якому з наявних у вас пристроїв, будь то комп'ютер, планшет або телефон.</value>
+  </data>
+  <data name="MessageDialog_Cancelled" xml:space="preserve">
+    <value>Операцію скасовано.</value>
+  </data>
+  <data name="MessageDialog_Couldn't" xml:space="preserve">
+    <value>не може бути збережений.</value>
+  </data>
+  <data name="MessageDialog_File" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="MessageDialog_Was" xml:space="preserve">
+    <value>збережений.</value>
+  </data>
+  <data name="TextDocument" xml:space="preserve">
+    <value>Текстовий документ</value>
+  </data>
+  <data name="AppBar_Open.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Відкрити (Ctrl+O)</value>
+  </data>
+  <data name="AppBar_Save.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Зберегти (Ctrl+S)</value>
+  </data>
+  <data name="TextWrapping.Content" xml:space="preserve">
+    <value>Перенесення за словами</value>
+  </data>
+  <data name="Size.Text" xml:space="preserve">
+    <value>Розмiр</value>
+  </data>
+  <data name="Decrease.Label" xml:space="preserve">
+    <value>Зменшити</value>
+  </data>
+  <data name="AppBar_Font.Label" xml:space="preserve">
+    <value>Шрифт</value>
+  </data>
+  <data name="Increase.Label" xml:space="preserve">
+    <value>Збільшити</value>
+  </data>
+  <data name="Font.Text" xml:space="preserve">
+    <value>ШРИФТ</value>
+  </data>
+  <data name="Style.Text" xml:space="preserve">
+    <value>Стиль</value>
+  </data>
+  <data name="Bold.Label" xml:space="preserve">
+    <value>Жирний</value>
+  </data>
+  <data name="Italic.Label" xml:space="preserve">
+    <value>Курсив</value>
+  </data>
+  <data name="AppBar_Settings.Label" xml:space="preserve">
+    <value>Налаштування</value>
+  </data>
+  <data name="SettingsFlyout_Title.Text" xml:space="preserve">
+    <value>НАЛАШТУВАННЯ</value>
+  </data>
+  <data name="SpellCheck.Content" xml:space="preserve">
+    <value>Перевірка правопису</value>
+  </data>
+  <data name="Dark.Content" xml:space="preserve">
+    <value>Темна</value>
+  </data>
+  <data name="Light.Content" xml:space="preserve">
+    <value>Світла</value>
+  </data>
+  <data name="Theme.Header" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="Untitled" xml:space="preserve">
+    <value>Безіменний</value>
+  </data>
+  <data name="AppBar_SaveAs.Label" xml:space="preserve">
+    <value>Зберегти як</value>
+  </data>
+  <data name="NewWindow" xml:space="preserve">
+    <value>Відкрити у новому вікні</value>
+  </data>
+  <data name="Redo.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Виконати знову (Ctrl+Y)</value>
+  </data>
+  <data name="Undo.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Скасувати (Ctrl+Z)</value>
+  </data>
+  <data name="EnterText.PlaceholderText" xml:space="preserve">
+    <value>Пошук (Ctrl+F)</value>
+  </data>
+  <data name="Find.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Знайти (Ctrl+F)</value>
+  </data>
+  <data name="Command_Cancel" xml:space="preserve">
+    <value>Скасувати</value>
+  </data>
+  <data name="Command_Content" xml:space="preserve">
+    <value>Ви хочете зберегти зміни у файлі</value>
+  </data>
+  <data name="Command_NotSave" xml:space="preserve">
+    <value>Не зберігати</value>
+  </data>
+  <data name="Command_Save" xml:space="preserve">
+    <value>Зберегти</value>
+  </data>
+  <data name="Family.Text" xml:space="preserve">
+    <value>Шрифт</value>
+  </data>
+  <data name="Default.Content" xml:space="preserve">
+    <value>За замовчуванням</value>
+  </data>
+  <data name="Underline.Label" xml:space="preserve">
+    <value>Підкресле-ний</value>
+  </data>
+  <data name="Rate.Content" xml:space="preserve">
+    <value>Оцінити</value>
+  </data>
+  <data name="Save2.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Зберегти (Ctrl+S)</value>
+  </data>
+  <data name="SaveAs.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Зберегти як</value>
+  </data>
+  <data name="FileCorrupted" xml:space="preserve">
+    <value>пошкоджений або, можливо, не є текстовим документом. Padnote не може відкрити його.</value>
+  </data>
+  <data name="English.Text" xml:space="preserve">
+    <value>Англійська</value>
+  </data>
+  <data name="EnterText2.PlaceholderText" xml:space="preserve">
+    <value>Пошук</value>
+  </data>
+  <data name="AboutTitle.Text" xml:space="preserve">
+    <value>ПРО ЗАСТОСУНОК</value>
+  </data>
+  <data name="About2.Content" xml:space="preserve">
+    <value>Про застосунок</value>
+  </data>
+  <data name="Danila.Text" xml:space="preserve">
+    <value>Данила Іонов</value>
+  </data>
+  <data name="Devdes.Text" xml:space="preserve">
+    <value>Дизайн та розробка</value>
+  </data>
+  <data name="Max.Text" xml:space="preserve">
+    <value>Максим Денисенко</value>
+  </data>
+  <data name="Ukrainian.Text" xml:space="preserve">
+    <value>Українська</value>
+  </data>
+  <data name="forward.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Знайти наступне (F3)</value>
+  </data>
+  <data name="CharacterCount.Text" xml:space="preserve">
+    <value>Символiв</value>
+  </data>
+  <data name="Column.Text" xml:space="preserve">
+    <value>Cтовпець</value>
+  </data>
+  <data name="Line.Text" xml:space="preserve">
+    <value>Ряд</value>
+  </data>
+  <data name="statusBar.Header" xml:space="preserve">
+    <value>Відобразити рядок стану</value>
+  </data>
+  <data name="statusBar.OffContent" xml:space="preserve">
+    <value>Ні</value>
+  </data>
+  <data name="statusBar.OnContent" xml:space="preserve">
+    <value>Так</value>
+  </data>
+  <data name="WordCount.Text" xml:space="preserve">
+    <value>Слiв</value>
+  </data>
+  <data name="GoTo.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Перейти до рядка (Ctrl+G)</value>
+  </data>
+  <data name="GoToTitle" xml:space="preserve">
+    <value>Перейти до рядка</value>
+  </data>
+  <data name="LineNumber" xml:space="preserve">
+    <value>Номер рядка</value>
+  </data>
+  <data name="GoToText" xml:space="preserve">
+    <value>Перейти до</value>
+  </data>
+  <data name="Chinese.Text" xml:space="preserve">
+    <value>Китайська</value>
+  </data>
+  <data name="Ni.Text" xml:space="preserve">
+    <value>Ni Yijiong</value>
+  </data>
+  <data name="Belarusian.Text" xml:space="preserve">
+    <value>Білоруська</value>
+  </data>
+  <data name="Yan.Text" xml:space="preserve">
+    <value>Ян Бармута</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Версія</value>
+  </data>
+  <data name="New.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Створити (Ctrl+N)</value>
+  </data>
+  <data name="Bold.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Жирний (Ctrl+B)</value>
+  </data>
+  <data name="Italic.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Курсив (Ctrl+I)</value>
+  </data>
+  <data name="Underline.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Підкреслений (Ctrl+U)</value>
+  </data>
+  <data name="Localizations.Text" xml:space="preserve">
+    <value>Локалізації</value>
+  </data>
+  <data name="Print.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Друкувати (Ctrl+P)</value>
+  </data>
+  <data name="ExSettingsFlyout_Title.Text" xml:space="preserve">
+    <value>РОЗШИРЕНI НАЛАШТУВАННЯ</value>
+  </data>
+  <data name="Extended.Content" xml:space="preserve">
+    <value>Розширені налаштування</value>
+  </data>
+  <data name="ExCon.Text" xml:space="preserve">
+    <value>Рекомендується використовувати CR+LF для забезпечення кращої сумісності з класичним блокнотом Windows</value>
+  </data>
+  <data name="ExTitle.Text" xml:space="preserve">
+    <value>Кінець рядка за замовчуванням</value>
+  </data>
+</root>

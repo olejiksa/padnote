@@ -1,0 +1,45 @@
+﻿<Page
+    x:Class="Notepad.Pages.SettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" SizeChanged="PageSizeChanged">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel x:Name="stk" Background="{ThemeResource AppBarBackgroundThemeBrush}" Grid.Row="0" Height="48" Orientation="Horizontal">
+            <FontIcon Glyph="&#xE713;" Foreground="{ThemeResource SystemControlForegroundAccentBrush}" Margin="0,0,0,0" FontSize="24" Width="48" VerticalAlignment="Center"/>
+            <TextBlock x:Name="headerText"
+                           x:Uid="SettingsFlyout_Title" Style="{ThemeResource FlyoutPickerTitleTextBlockStyle}" FontSize="15" Margin="12,0,0,0" VerticalAlignment="Center"/>
+        </StackPanel>
+        <Border Grid.Row="1" BorderThickness="0.5" BorderBrush="{ThemeResource AppBarSeparatorForegroundThemeBrush}"/>
+        <Grid Grid.Row="2">
+            <Grid.ChildrenTransitions>
+                <TransitionCollection>
+                    <EntranceThemeTransition/>
+                </TransitionCollection>
+            </Grid.ChildrenTransitions>
+
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <StackPanel Margin="30,20,0,0" x:Name="stk2">
+                    <ToggleSwitch x:Name="statusBar" x:Uid="statusBar" IsOn="True" Margin="0,10,0,10" Toggled="statusBar_Toggled"/>
+                    <ComboBox x:Name="theme" x:Uid="Theme" SelectionChanged="theme_SelectionChanged"
+                                          Margin="0,0,0,15">
+                        <ComboBoxItem x:Name="default1" x:Uid="Default" Visibility="Collapsed"/>
+                        <ComboBoxItem x:Uid="Light"/>
+                        <ComboBoxItem x:Uid="Dark"/>
+                    </ComboBox>
+                    <!--<ComboBox Name="encoding" Header="Encoding" ItemsSource="{x:Bind Encodings}" SelectedIndex="{x:Bind EncodingsNumber, Mode=TwoWay}" Margin="0,0,0,15"/>-->
+                    <HyperlinkButton x:Name="rate" x:Uid="Rate" Style="{ThemeResource TextBlockButtonStyle}" Click="rate_Click"/>
+                    <HyperlinkButton x:Uid="Extended" Style="{ThemeResource TextBlockButtonStyle}" Click="ExtendedSettings_Click"/>
+                    <HyperlinkButton x:Uid="About2" Style="{ThemeResource TextBlockButtonStyle}" Margin="0,0,0,20" Click="OnHyperlinkButtonClicked"/>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+    </Grid>
+</Page>

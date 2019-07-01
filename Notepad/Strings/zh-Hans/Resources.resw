@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Author.Text" xml:space="preserve">
+    <value>By Oleg Samoylov</value>
+  </data>
+  <data name="AppBar_About.Label" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="AppBar_Save.Label" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="appDescription" xml:space="preserve">
+    <value>Padnote是一款专为Win10设计的美观好用的记事本应用，可以创建和编辑简单的txt文档。它拥有现代、整洁、极简的UI。此外，它还是一款通用应用，可以运行在你的任何Win10设备上。你可以把它设置为txt文档的默认打开应用以取代Windows自带的记事本。</value>
+  </data>
+  <data name="MessageDialog_Cancelled" xml:space="preserve">
+    <value>已取消。</value>
+  </data>
+  <data name="MessageDialog_Couldn't" xml:space="preserve">
+    <value>无法保存。</value>
+  </data>
+  <data name="MessageDialog_File" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="MessageDialog_Was" xml:space="preserve">
+    <value>已保存。</value>
+  </data>
+  <data name="TextDocument" xml:space="preserve">
+    <value>文本文档</value>
+  </data>
+  <data name="AppBar_Open.ToolTipService.ToolTip" xml:space="preserve">
+    <value>打开 (Ctrl+O)</value>
+  </data>
+  <data name="AppBar_Save.ToolTipService.ToolTip" xml:space="preserve">
+    <value>保存 (Ctrl+S)</value>
+  </data>
+  <data name="TextWrapping.Content" xml:space="preserve">
+    <value>自动换行</value>
+  </data>
+  <data name="AppBar_Font.Label" xml:space="preserve">
+    <value>字体</value>
+  </data>
+  <data name="Decrease.Label" xml:space="preserve">
+    <value>缩小</value>
+  </data>
+  <data name="Increase.Label" xml:space="preserve">
+    <value>放大</value>
+  </data>
+  <data name="Size.Text" xml:space="preserve">
+    <value>缩放</value>
+  </data>
+  <data name="Font.Text" xml:space="preserve">
+    <value>字体</value>
+  </data>
+  <data name="Style.Text" xml:space="preserve">
+    <value>格式</value>
+  </data>
+  <data name="Bold.Label" xml:space="preserve">
+    <value>粗体</value>
+  </data>
+  <data name="Italic.Label" xml:space="preserve">
+    <value>斜体</value>
+  </data>
+  <data name="AppBar_Settings.Label" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="SettingsFlyout_Title.Text" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="SpellCheck.Content" xml:space="preserve">
+    <value>拼写检查</value>
+  </data>
+  <data name="Dark.Content" xml:space="preserve">
+    <value>暗</value>
+  </data>
+  <data name="Fullscreen.Header" xml:space="preserve">
+    <value>全屏</value>
+  </data>
+  <data name="Fullscreen.OffContent" xml:space="preserve">
+    <value>关</value>
+  </data>
+  <data name="Fullscreen.OnContent" xml:space="preserve">
+    <value>开</value>
+  </data>
+  <data name="Light.Content" xml:space="preserve">
+    <value>亮</value>
+  </data>
+  <data name="Theme.Header" xml:space="preserve">
+    <value>主题</value>
+  </data>
+  <data name="Untitled" xml:space="preserve">
+    <value>新建文本文档</value>
+  </data>
+  <data name="AppBar_SaveAs.Label" xml:space="preserve">
+    <value>另存为</value>
+  </data>
+  <data name="NewWindow" xml:space="preserve">
+    <value>新建窗口</value>
+  </data>
+  <data name="Redo.ToolTipService.ToolTip" xml:space="preserve">
+    <value>重做 (Ctrl+Y)</value>
+  </data>
+  <data name="Undo.ToolTipService.ToolTip" xml:space="preserve">
+    <value>撤销 (Ctrl+Z)</value>
+  </data>
+  <data name="EnterText.PlaceholderText" xml:space="preserve">
+    <value>查找 (Ctrl+F)</value>
+  </data>
+  <data name="Find.ToolTipService.ToolTip" xml:space="preserve">
+    <value>查找 (Ctrl+F)</value>
+  </data>
+  <data name="Command_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Command_Content" xml:space="preserve">
+    <value>是否将更改保存到</value>
+  </data>
+  <data name="Command_NotSave" xml:space="preserve">
+    <value>不保存</value>
+  </data>
+  <data name="Command_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Family.Text" xml:space="preserve">
+    <value>字体</value>
+  </data>
+  <data name="Default.Content" xml:space="preserve">
+    <value>跟随系统设置</value>
+  </data>
+  <data name="Underline.Label" xml:space="preserve">
+    <value>下划线</value>
+  </data>
+  <data name="Rate.Content" xml:space="preserve">
+    <value>打分和评价</value>
+  </data>
+  <data name="Save2.ToolTipService.ToolTip" xml:space="preserve">
+    <value>保存 (Ctrl+S)</value>
+  </data>
+  <data name="SaveAs.ToolTipService.ToolTip" xml:space="preserve">
+    <value>另存为</value>
+  </data>
+  <data name="FileCorrupted" xml:space="preserve">
+    <value>已经损坏或者不是一个文本文档。Padnote无法打开它。</value>
+  </data>
+  <data name="English.Text" xml:space="preserve">
+    <value>英文</value>
+  </data>
+  <data name="Print.ToolTipService.ToolTip" xml:space="preserve">
+    <value>打印 (Ctrl+P)</value>
+  </data>
+  <data name="forward.ToolTipService.ToolTip" xml:space="preserve">
+    <value>查找下一个 (F3)</value>
+  </data>
+  <data name="statusBar.Header" xml:space="preserve">
+    <value>显示状态栏和字数统计</value>
+  </data>
+  <data name="statusBar.OffContent" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="statusBar.OnContent" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="CharacterCount.Text" xml:space="preserve">
+    <value>字符数</value>
+  </data>
+  <data name="WordCount.Text" xml:space="preserve">
+    <value>非中文单词</value>
+  </data>
+  <data name="Line.Text" xml:space="preserve">
+    <value>行</value>
+  </data>
+  <data name="Column.Text" xml:space="preserve">
+    <value>列</value>
+  </data>
+  <data name="EnterText2.PlaceholderText" xml:space="preserve">
+    <value>查找</value>
+  </data>
+  <data name="AboutTitle.Text" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="Danila.Text" xml:space="preserve">
+    <value>By Danila Ionov</value>
+  </data>
+  <data name="Devdes.Text" xml:space="preserve">
+    <value>设计与开发</value>
+  </data>
+  <data name="Max.Text" xml:space="preserve">
+    <value>By Maxim Denisenko</value>
+  </data>
+  <data name="Ukrainian.Text" xml:space="preserve">
+    <value>乌克兰语</value>
+  </data>
+  <data name="About2.Content" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="GoTo.ToolTipService.ToolTip" xml:space="preserve">
+    <value>跳转到行 (Ctrl+G)</value>
+  </data>
+  <data name="GoToTitle" xml:space="preserve">
+    <value>跳转到行</value>
+  </data>
+  <data name="LineNumber" xml:space="preserve">
+    <value>行号</value>
+  </data>
+  <data name="GoToText" xml:space="preserve">
+    <value>跳转</value>
+  </data>
+  <data name="Chinese.Text" xml:space="preserve">
+    <value>中文</value>
+  </data>
+  <data name="Ni.Text" xml:space="preserve">
+    <value>By Ni Yijiong</value>
+  </data>
+  <data name="Belarusian.Text" xml:space="preserve">
+    <value>白俄罗斯</value>
+  </data>
+  <data name="Yan.Text" xml:space="preserve">
+    <value>By Yan Barmuta</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>版本</value>
+  </data>
+  <data name="New.ToolTipService.ToolTip" xml:space="preserve">
+    <value>创建 (Ctrl+N)</value>
+  </data>
+  <data name="Localizations.Text" xml:space="preserve">
+    <value>本地化</value>
+  </data>
+  <data name="ExSettingsFlyout_Title.Text" xml:space="preserve">
+    <value>高级设置</value>
+  </data>
+  <data name="Extended.Content" xml:space="preserve">
+    <value>高级设置</value>
+  </data>
+  <data name="ExCon.Text" xml:space="preserve">
+    <value>推荐使用CR+LF与经典的Windows记事本的最佳兼容性</value>
+  </data>
+  <data name="ExTitle.Text" xml:space="preserve">
+    <value>默认的行结束</value>
+  </data>
+</root>

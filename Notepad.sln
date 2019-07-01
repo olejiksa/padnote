@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notepad", "Notepad\Notepad.csproj", "{2016F880-73CE-466F-BBEA-D5657B442BD4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FontEnumerator", "Fonts\Fonts.vcxproj", "{E675C2F0-7ADC-4E72-8004-AE107A85992A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2016F880-73CE-466F-BBEA-D5657B442BD4}.Debug|ARM.ActiveCfg = Debug|ARM
+		{2016F880-73CE-466F-BBEA-D5657B442BD4}.Debug|ARM.Build.0 = Debug|ARM
+		{2016F880-73CE-466F-BBEA-D5657B442BD4}.Debug|ARM.Deploy.0 = Debug|ARM
+		{2016F880-73CE-466F-BBEA-D5657B442BD4}.Debug|x64.ActiveCfg = Debug|x64
+		{2016F880-73CE-466F-BBEA-D5657B442BD4}.Debug|x64.Build.0 = Debug|x64
+		{2016F880-73CE-466F-BBEA-D5657B442BD4}.Debug|x64.Deploy.0 = Debug|x64
+		{2016F880-73CE-466F-BBEA-D5657B442BD4}.Debug|x86.ActiveCfg = Debug|x86
+		{2016F880-73CE-466F-BBEA-D5657B442BD4}.Debug|x86.Build.0 = Debug|x86
+		{2016F880-73CE-466F-BBEA-D5657B442BD4}.Debug|x86.Deploy.0 = Debug|x86
+		{2016F880-73CE-466F-BBEA-D5657B442BD4}.Release|ARM.ActiveCfg = Release|ARM
+		{2016F880-73CE-466F-BBEA-D5657B442BD4}.Release|ARM.Build.0 = Release|ARM
+		{2016F880-73CE-466F-BBEA-D5657B442BD4}.Release|ARM.Deploy.0 = Release|ARM
+		{2016F880-73CE-466F-BBEA-D5657B442BD4}.Release|x64.ActiveCfg = Release|x64
+		{2016F880-73CE-466F-BBEA-D5657B442BD4}.Release|x64.Build.0 = Release|x64
+		{2016F880-73CE-466F-BBEA-D5657B442BD4}.Release|x64.Deploy.0 = Release|x64
+		{2016F880-73CE-466F-BBEA-D5657B442BD4}.Release|x86.ActiveCfg = Release|x86
+		{2016F880-73CE-466F-BBEA-D5657B442BD4}.Release|x86.Build.0 = Release|x86
+		{2016F880-73CE-466F-BBEA-D5657B442BD4}.Release|x86.Deploy.0 = Release|x86
+		{E675C2F0-7ADC-4E72-8004-AE107A85992A}.Debug|ARM.ActiveCfg = Debug|ARM
+		{E675C2F0-7ADC-4E72-8004-AE107A85992A}.Debug|ARM.Build.0 = Debug|ARM
+		{E675C2F0-7ADC-4E72-8004-AE107A85992A}.Debug|x64.ActiveCfg = Debug|x64
+		{E675C2F0-7ADC-4E72-8004-AE107A85992A}.Debug|x64.Build.0 = Debug|x64
+		{E675C2F0-7ADC-4E72-8004-AE107A85992A}.Debug|x86.ActiveCfg = Debug|Win32
+		{E675C2F0-7ADC-4E72-8004-AE107A85992A}.Debug|x86.Build.0 = Debug|Win32
+		{E675C2F0-7ADC-4E72-8004-AE107A85992A}.Release|ARM.ActiveCfg = Release|ARM
+		{E675C2F0-7ADC-4E72-8004-AE107A85992A}.Release|ARM.Build.0 = Release|ARM
+		{E675C2F0-7ADC-4E72-8004-AE107A85992A}.Release|x64.ActiveCfg = Release|x64
+		{E675C2F0-7ADC-4E72-8004-AE107A85992A}.Release|x64.Build.0 = Release|x64
+		{E675C2F0-7ADC-4E72-8004-AE107A85992A}.Release|x86.ActiveCfg = Release|Win32
+		{E675C2F0-7ADC-4E72-8004-AE107A85992A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://quillaur.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Notepad\\Notepad.csproj
+		SccProjectName1 = Notepad
+		SccLocalPath1 = Notepad
+		SccProjectUniqueName2 = Fonts\\Fonts.vcxproj
+		SccProjectName2 = Fonts
+		SccLocalPath2 = Fonts
+	EndGlobalSection
+EndGlobal
